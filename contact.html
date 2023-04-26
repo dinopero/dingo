@@ -83,20 +83,56 @@
         <div class="col-lg-8">
             <form action="contact_process.php" class="form-contact contact-form" method="post" 
             id="contactForm" novalidate="novalidate">
-            <div class="row">
-                <div class="col-12">
-                    <div class="form-group">
-                        <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                        placehgolder="Enter Message"></textarea>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                            placehgolder="Enter Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="name" type="text" id="name" placeholder="Enter Your Name">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input class="form-control" name="email" type="email" id="email" placeholder="Enter Your Email Address">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group">
+                            <input class="form-control" name="subject" type="subject" id="subject" placeholder="Enter Subject">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input class="form-control" name="name" type="text" id="name" placeholder="Enter Your Name">
-                    </div>
+                <div class="from-group mt-3">
+                    <button type="submit" class="button button-contactForm btn_4">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4">
+            <div class="media contact-info">
+                <span class="contact-info__icon"></span>
+                <div class="media-body">
+                    <h3>Someplace, Somewhere</h3>
+                    <p>Townsville, SP 91670</p>
                 </div>
             </div>
-        </form>
+            <div class="media contact-info">
+                <span class="contact-info__icon"></span>
+                <div class="media-body">
+                    <h3>+000 (01) 0001 222</h3>
+                    <p>Monday to Friday, 9am to 6pm</p>
+                </div>
+            </div>
+            <div class="media contact-info">
+                <span class="contact-info__icon"></span>
+                <div class="media-body">
+                    <h3>support@inforemailx.com</h3>
+                    <p>Send us your query any time!</p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Contact Section Finish -->
