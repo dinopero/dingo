@@ -202,3 +202,180 @@ h5 {
     margin-bottom: 7px;
 }
 
+/* ==================================blog CSS start================================== */ 
+@media (max-width: 576px) {
+    /* Line 3 */
+    .blog_item_section .single_blog_item {
+        margin-bottom: 20px;
+    }    
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 3 */
+    .blog_item_section .single_blog_item {
+        margin-bottom: 20px;
+    }       
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Line 3 */
+    .blog_item_section .single_blog_item {
+        margin-bottom: 20px;
+    }       
+}
+
+/* Line 17 */
+.blog_item_section .single_blog_item:hover .single_blog_text {
+    border: 1 px solid transparent;
+    box-shadow: 0px 15px 30px rgba(115, 113, 127, 0.1);
+    background-color: #fff;
+}
+
+/* Line 23 */
+.blog_item_section .single_blog_item:hover .btn_3 {
+    color: #ff6426;
+}
+
+/* Line 25 */
+.blog_item_section .single_blog_item:hover .btn_3 a {
+    color: #ff6426;
+}
+
+/* Line 28 */ 
+.blog_item_section .single_blog_item:hover .btn_3 img {
+    transform: rotateX(-180deg);
+    margin-bottom: 7px;
+}
+
+/* Line 36 */ 
+.blog_item_section .single_blog_img img {
+    width: 100%;
+}
+
+/* Line 40 */
+.blog_item_section .single_blog_text {
+    padding: 40px 30px;
+    border: 1px solid #e7e7e7;
+    border-radius: 100px 0px 623px 77px / 0px 50px 128px 58px;
+    background-color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media (max-width: 576px) {
+    /* Line 40 */
+    .blog_item_section .single_blog_text {
+        padding: 20px 15px;
+    }   
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 40 */
+    .blog_item_section .single_blog_text {
+        padding: 20px 15px;
+    }  
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 40 */
+    .blog_item_section .single_blog_text {
+        padding: 20px 15px;
+    }  
+}
+
+/* Line 60 */
+.blog_item_section .single_blog_text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    /* Line 60 */
+    .blog_item_section .single_blog_text h3 {
+        font-size: 20px;
+      }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 60 */
+    .blog_item_section .single_blog_text h3 {
+        font-size: 20px;
+      }   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Line 60 */
+    .blog_item_section .single_blog_text h3 {
+        font-size: 20px;
+      }   
+}
+
+/* Line 79 */ 
+.blog_item_section .single_blog_text .btn_3 {
+    color: #2c3033;
+    margin-top: 28px;
+    text-transform: capitalize;
+}
+
+/* Line 89 */
+.blog_section .single_blog_text .date .date_item {
+    color: #2c3033;
+    font-size: 15px;
+    margin-right: 19px;
+}
+
+/* Line 93 */ 
+.blog_section .single_blog_text .date .date_item span {
+    color: #ff6426;
+}
+
+/* Line 98 */
+.blog_section .single_blog_text h3 {
+    font-size: 24px;
+    color: #2c3033;
+    line-height: 1.458;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Line 105 */
+.blog_section .single_blog_text h3 a {
+    color: #2c3033;
+}
+
+@media (max-width: 576px) {
+    /* Line 98 */
+    .blog_section .single_blog_text h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 98 */
+    .blog_section .single_blog_text h3 {
+        font-size: 20px;
+      }
+}
+
+/* Line 121 */
+.blog_section .single_blog_text .btn_3 {
+    margin-top: 25px;
+}
+
+/* Line 123 */ 
+.blog_section .single_blog_text .btn_3 img {
+    margin-bottom: 8px;
+}
+
+/* ==================================About CSS Start==================================*/
+/* Line 2 */
+.about_part {
+    position: relative;
+    z-index: 1;
+    padding: 80px 0px;
+}
+
+/* Line 7 */
+
