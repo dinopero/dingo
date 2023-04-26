@@ -378,4 +378,236 @@ h5 {
 }
 
 /* Line 7 */
+.about_part .about_text h5 {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 18px;
+}
 
+/* Line 13 */
+.about_part .about_text h4 {
+    margin-bottom: 25px;
+    color: #ff6426;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Cardo", serif;
+}
+
+@media (max-width: 576px) {
+    /* Line 13 */
+    .about_part .about_text h4 {
+        margin-bottom: 20px;
+        font-size: 17px;
+      }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 13 */
+.about_part .about_text h4 {
+    margin-bottom: 20px;
+    font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Line 13 */ 
+    .about_part .about_text h4 {
+        margin-bottom: 20px;
+        font-size: 17px;
+      }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Line 13 */
+    .about_part .about_text h4 {
+        margin-bottom: 20px;
+        font-size: 17px;
+      }
+}
+
+/* Line 35 */ 
+.about_part .about_text h2 {
+    line-height: 1.25;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+@media (max-width: 576px) {
+    /* Line 35 */
+    .about_part .about_text h2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 35 */
+    .about_part .about_text h2 {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* Line 35 */
+.about_part .about_text h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+/* Line 35 */
+.about_part .about_text h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Line 54 */ 
+.about_part .about_text p {
+    margin-top: 13px;
+}
+
+/* Line 57 */ 
+.about_part .about_text .btn_3 {
+    margin-top: 48px;
+}
+
+/* Line 62 */ 
+.about_bg {
+    position: relative;
+    z-index: 1;
+}
+
+/* Line 65 */ 
+.about_bg:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    bottom: 133px;
+    z-index: -1;
+    background: url(../img/about_overlay.png) bottom right no-repeat;
+    background-size: 15% 60%;
+    right: 0px;
+}
+
+@media (max-width: 576px) {
+    /* Line 65 */
+    .about_bg:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 65 */
+    .about_bg:after {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Line 65 */
+    .about_bg:after {
+        display: none;
+      }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Line 65 */
+    .about_bg:after {
+        display: none;
+    }
+}
+
+/* Line 1 */
+.breadcrumb_bg {
+background-image: url("/assets/images/breadcrumb.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Line 4 */
+.breadcrumb {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+/* Line 8 */
+.breadcrumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    opacity: 0.6;
+    z-index: -1;
+}
+
+/* Line 19 */
+.breadcrumb .breadcrumb_iner {
+    height: 300px;
+    width: 100%;
+    display: table;
+}
+
+/* Line 23 */
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Line 26 */ 
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+    /* Line 26 */
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Line 26 */
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Line 26 */
+    .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
+        font-size: 40px;
+    }
+}
+
+/* Line 45 */ 
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
+    font-size: 15px;
+    color: #fff;
+}
+
+/* Line 49 */ 
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item span {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+/* Line 58 */ 
+.breadcrumb {
+    margin-bottom: 0px !important;
+}
+
+.section_padding {
+    padding: 140px 0px;
+}
